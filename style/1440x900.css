@@ -1,0 +1,1057 @@
+html {
+  background: #FFFFFF;
+  display: block;
+  height: 2216vw;
+}
+
+  .forbody {
+    background: #FFFFFF;
+    transition: 1s;
+  }
+  .all {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2216vw;
+    overflow: hidden;
+    z-index: -3;
+  }
+
+  /* .picture {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 4424px;
+    background: url(images/example.png);
+    opacity: .2;
+  } */
+
+
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    line-height: 1.5vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: #5920E9;
+    transition: .5s;
+  }
+  a:hover {
+    color: #C4C4C4;
+    transition: .1s;
+  }
+
+   /* менюшка боковая fix2 */
+
+  .fix2 {
+    position: fixed;
+    width: 10.76%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    transition: .5s;
+  }
+
+  .pro {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 34.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .start {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 37.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .free {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 40.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .typo {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 43.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .setka {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 46.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .composition {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 49.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .photo {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 52.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .graphics {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 55.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .tone {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 58.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  .merch {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 27%;
+    top: 61.5vh;
+    color: #8D8D8D;
+    transition: .5s;
+  }
+  /* менюшка кончилась */
+
+  /* обложка */
+
+  .headerstyle {
+    position: absolute;
+    width: 736px;
+    height: 52px;
+    left: 16.5%;
+    top: 28vh;
+    font-size: 3.3vw;
+    letter-spacing: -0.03em;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: #FFFFFF;
+    transition: .5s;
+  }
+  .headerpro {
+    position: absolute;
+    width: 736px;
+    height: 52px;
+    left: 16%;
+    top: 35vh;
+    font-size: 10vw;
+    letter-spacing: -0.03em;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: #FFFFFF;
+    transition: .5s;
+  }
+  .background1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: #1D1D1D;
+    transition: .5s;
+    z-index: -1;
+  }
+  .logo {
+    position: absolute;
+    width: 74px;
+    left: 2.99%;
+    top: 5vh;
+    transition: .5s;
+  }
+  .stiker1 {
+    position: absolute;
+    width: 10.4%;
+    left: 62.7%;
+    top: 26vh;
+    transform: rotate(-20.2deg);
+    transition: .5s;
+  }
+  .stiker2 {
+    position: absolute;
+    width: 12.5%;
+    left: 72.5%;
+    top: 16vh;
+    transform: rotate(4.91deg);
+    transition: .5s;
+  }
+  .stiker3 {
+    position: absolute;
+    width: 13.68%;
+    left: 76.5%;
+    top: 41vh;
+    transform: rotate(34.91deg);
+    transition: .5s;
+  }
+  .stiker4 {
+    position: absolute;
+    width: 10.4%;
+    left: 68.5%;
+    top: 53vh;
+    transform: rotate(-18.99deg);
+    transition: .5s;
+    z-index: -1;
+  }
+  .stiker5 {
+    position: absolute;
+    width: 13.88%;
+    left: 91.5%;
+    top: 41vh;
+    transform: rotate(-9.66deg);
+    transition: .5s;
+  }
+  .stiker6 {
+    position: absolute;
+    width: 13.19%;
+    left: 86%;
+    top: 66.5vh;
+    transform: rotate(16.91deg);
+    transition: .5s;
+  }
+  /* обложка кончилась */
+
+  h2 {
+    position: relative;
+    margin-top: 9.2vw;
+    margin-bottom: 3.4vw;
+    font-size: 4.7vw;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  h3 {
+    position: relative;
+    margin-top: 6.2vw;
+    margin-bottom: 2.5vw;
+    font-size: 3.33vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  p, ul {
+    position: relative;
+    font-size: 1.66vw;
+    line-height: 2.1vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 400;
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .brand {
+    position: relative;
+    width: 50%;
+    height: 25vw;
+    min-height: 300px;
+    left: 16%;
+    margin-top: 0px;
+    /* top: 100vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .cemantica {
+    position: relative;
+    width: 90%;
+    height: 35vh;
+    min-height: 350px;
+    left: 16%;
+    margin-top: 0px;
+    /* top: 160vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .creative {
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    font-size: 4.44vw;
+    font-family: 'Conv_Golos Text_DemiBold';
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .open {
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 6vw;
+    top: 13vh;
+    font-size: 4.44vw;
+    font-family: 'Conv_Golos Text_DemiBold';
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .friendly {
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 14vw;
+    top: 26vh;
+    font-size: 4.44vw;
+    font-family: 'Conv_Golos Text_DemiBold';
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .active {
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 36vw;
+    top: 13vh;
+    font-size: 4.44vw;
+    font-family: 'Conv_Golos Text_DemiBold';
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .funny {
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 49vw;
+    top: 0px;
+    font-size: 4.44vw;
+    font-family: 'Conv_Golos Text_DemiBold';
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .optimist {
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 62vw;
+    top: 13vh;
+    font-size: 4.44vw;
+    font-family: 'Conv_Golos Text_DemiBold';
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .qualitative {
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 68vw;
+    top: 26vh;
+    font-size: 4.44vw;
+    font-family: 'Conv_Golos Text_DemiBold';
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .values {
+    position: relative;
+    width: 50%;
+    height: 72vw;
+    left: 16%;
+    /* top: 196vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .logotip {
+    position: relative;
+    width: 50%;
+    height: 50vw;
+    left: 16%;
+    /* top: 346vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .logotipmain {
+    position: absolute;
+    width: 56.87%;
+    left: 46.59%;
+    margin-top: 6vh;
+    transition: .5s;
+  }
+  .sense {
+    position: relative;
+    width: 50%;
+    height: 35vw;
+    left: 16%;
+    /* top: 250vw; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .sound {
+    position: absolute;
+    width: 90.87%;
+    left: 30.59%;
+    margin-top: 3.4vw;
+    transition: .5s;
+  }
+  .sound2 {
+    position: absolute;
+    width: 80.5%;
+    left: 30.59%;
+    margin-top: 3.4vw;
+    transition: .5s;
+  }
+  .sound3 {
+    position: relative;
+    width: 80.5%;
+    left: 30.59%;
+    margin-top: 30vw;
+    transition: .5s;
+  }
+  .sense2 {
+    position: relative;
+    width: 50%;
+    height: 29vw;
+    left: 16%;
+    /* top: 308vw; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .sense3 {
+    position: relative;
+    width: 50%;
+    height: 50vw;
+    left: 16%;
+    /* top: 592vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .principles {
+    position: relative;
+    width: 50%;
+    height: 19vw;
+    left: 16%;
+    /* top: 692vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .background2 {
+    position: relative;
+    width: 100%;
+    height: 65vw;
+    left: 0px;
+    margin-top: 9vw;
+    /* top: 755vh; */
+    background-color: #1D1D1D;
+    transition: .5s;
+    z-index: -10;
+  }
+  .construction {
+    position: absolute;
+    width: 50%;
+    height: 56px;
+    left: 16%;
+    /* top: 755vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .postroenie {
+    position: absolute;
+    width: 70.5%;
+    left: 40.59%;
+    margin-top: 8vh;
+    transition: .5s;
+  }
+  .use {
+    position: relative;
+    width: 80%;
+    height: 75vw;
+    left: 16%;
+    /* top: 875vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .inuse {
+    position: absolute;
+    width: 75%;
+    left: 10.59%;
+    margin-top: 4.6vw;
+    transition: .5s;
+  }
+  .right {
+    position: absolute;
+    width: 90%;
+    left: 5.59%;
+    margin-top: 27.8vw;
+    transition: .5s;
+  }
+  .wrong {
+    position: absolute;
+    width: 65%;
+    left: 16.59%;
+    margin-top: 47.5vw;
+    transition: .5s;
+  }
+  .color {
+    position: relative;
+    width: 80%;
+    height: 68vw;
+    left: 16%;
+    /* top: 1025vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .color1 {
+    position: absolute;
+    width: 30%;
+    left: 0px;
+    margin-top: 1vw;
+    transition: .5s;
+  }
+  .white {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    left: 0px;
+    margin-top: 1.2vw;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    transition: .5s;
+  }
+  .color2 {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    margin-top: 1vw;
+    transition: .5s;
+  }
+  .black {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    left: 0px;
+    margin-top: 1.2vw;
+    background-color: #1D1D1D;
+    border: 1px solid #000000;
+    transition: .5s;
+  }
+  .dopcolor {
+    position: relative;
+    width: 80%;
+    height: 30vw;
+    left: 16%;
+    /* top: 1170vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .color3 {
+    position: absolute;
+    width: 18%;
+    left: 0px;
+
+    transition: .5s;
+  }
+  .violet {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    left: 0px;
+    margin-top: 2vh;
+    background-color: #6600FF;
+    transition: .5s;
+  }
+  .color4 {
+    position: absolute;
+    width: 18%;
+    left: 16vw;
+    transition: .5s;
+  }
+  .green {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    left: 0px;
+    margin-top: 2vh;
+    background-color: #71DA5B;
+    transition: .5s;
+  }
+  .color5 {
+    position: absolute;
+    width: 18%;
+    left: 32vw;
+    transition: .5s;
+  }
+  .orange {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    left: 0px;
+    margin-top: 2vh;
+    background-color: #EE754A;
+    transition: .5s;
+  }
+  .color6 {
+    position: absolute;
+    width: 18%;
+    left: 48vw;
+    transition: .5s;
+  }
+  .yellow {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    left: 0px;
+    margin-top: 2vh;
+    background-color: #EBC068;
+    transition: .5s;
+  }
+  .color7 {
+    position: absolute;
+    width: 18%;
+    left: 64vw;
+    transition: .5s;
+  }
+  .pink {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    left: 0px;
+    margin-top: 2vh;
+    background-color: #FABBC1;
+    transition: .5s;
+  }
+  .proportion {
+    position: relative;
+    width: 78.5%;
+    height: 13vw;
+    left: 16%;
+    /* top: 1242vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .colorpropor {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    margin-top: 6vh;
+    transition: .5s;
+  }
+  .mixandmatch {
+    position: relative;
+    width: 78.5%;
+    height: 113vw;
+    left: 16%;
+    /* top: 1280vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .background3 {
+    position: relative;
+    width: 100%;
+    height: 120vw;
+    left: 0px;
+    margin-top: 7vw;
+    /* top: 1525vh; */
+    background-color: #1D1D1D;
+    transition: .5s;
+    z-index: -10;
+  }
+  .typography {
+    position: relative;
+    width: 80%;
+    height: 89vw;
+    left: 16%;
+    top: 7vw;
+    /* top: 1520vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .golos {
+    display: flex;
+    width: 100%;
+    margin: 0 -2vw;
+    left: vw;
+    transition: .5s;
+  }
+  .nabor {
+    font-size: 1.66vw;
+    width: 80vw;
+    line-height: 2.1vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 400;
+    margin: 0 2vw;
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .h1h2 {
+    position: absolute;
+    width: 40%;
+    left: 0px;
+    margin-top: 6vh;
+    transition: .5s;
+  }
+  .regular {
+    position: absolute;
+    width: 40%;
+    left: 44vw;
+    margin-top: 6vh;
+    transition: .5s;
+  }
+  .inter {
+    position: relative;
+    width: 45%;
+    height: 56px;
+    left: 16%;
+    margin-top: 1vw;
+    transition: .5s;
+    z-index: 2;
+  }
+  .settka2 {
+    position: relative;
+    width: 80%;
+    height: 55vw;
+    left: 16%;
+    /* top: 1520vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .setkap {
+    position: absolute;
+    width: 38%;
+    left: 0px;
+    top: 10vw;
+    transition: .5s;
+  }
+  .setkaopis {
+    position: absolute;
+    width: 50%;
+    left: 45%;
+    top: 9vw;
+    transition: .5s;
+  }
+  .setkaplay {
+    position: absolute;
+    width: 78%;
+    left: 0px;
+    top: 30vw;
+    transition: .5s;
+  }
+  .composit {
+    position: relative;
+    width: 80%;
+    height: 60vw;
+    left: 16%;
+    /* top: 1520vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .shema1 {
+    position: absolute;
+    width: 33%;
+    left: 0px;
+    top: 20vw;
+    transition: .5s;
+  }
+  .shema2 {
+    position: absolute;
+    width: 33%;
+    left: 40%;
+    top: 20vw;
+    transition: .5s;
+  }
+  .kvadrat {
+    position: relative;
+    width: 80%;
+    height: 42vw;
+    left: 16%;
+    /* top: 1520vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .shema3 {
+    position: absolute;
+    width: 40%;
+    left: 0%;
+    top: 9vw;
+    transition: .5s;
+  }
+  .shema4 {
+    position: absolute;
+    width: 40%;
+    left: 45%;
+    top: 9vw;
+    transition: .5s;
+  }
+  .gorizont {
+    position: relative;
+    width: 80%;
+    height: 42vw;
+    left: 16%;
+    /* top: 1520vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .shema5 {
+    position: absolute;
+    width: 70%;
+    left: 0%;
+    top: 9vw;
+    transition: .5s;
+  }
+  .background3 {
+    position: relative;
+    width: 100%;
+    height: 140vw;
+    left: 0px;
+    margin-top: 9vw;
+    /* top: 755vh; */
+    background-color: #1D1D1D;
+    transition: .5s;
+    z-index: -10;
+  }
+  .primer {
+    position: absolute;
+    width: 80%;
+    height: 56px;
+    left: 16%;
+    /* top: 755vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .primer1 {
+    position: absolute;
+    width: 33%;
+    left: 0px;
+    top: 15vw;
+    transition: .5s;
+  }
+  .primer2 {
+    position: absolute;
+    width: 33%;
+    left: 40%;
+    top: 15vw;
+    transition: .5s;
+  }
+  .kvadrat2 {
+    position: relative;
+    width: 80%;
+    height: 42vw;
+    left: 16%;
+    top: 50vw;
+    /* top: 1520vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .gorizont2 {
+    position: relative;
+    width: 80%;
+    height: 42vw;
+    left: 16%;
+    top: 47vw;
+    /* top: 1520vh; */
+    transition: .5s;
+    z-index: -5;
+  }
+  .shema5 {
+    position: absolute;
+    width: 70%;
+    left: 0%;
+    top: 9vw;
+    transition: .5s;
+  }
+  .photorazdel {
+    position: relative;
+    width: 50%;
+    height: 40vw;
+    left: 16%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .palette {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    margin-top: 2.6vw;
+    transition: .5s;
+  }
+  .photocolumn1 {
+    position: absolute;
+    width: 35%;
+    height: 40vw;
+    left: 16%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .photocolumn2 {
+    position: absolute;
+    width: 42%;
+    height: 40vw;
+    left: 54%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .fotki {
+    position: relative;
+    width: 100%;
+    height: 106vw;
+    left: 0%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .grafica {
+    position: relative;
+    width: 80%;
+    height: 79vw;
+    left: 16%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .iskazenie {
+    position: relative;
+    width: 100%;
+    height: 75vw;
+    left: 0%;
+    margin-top: -5vw;
+    transition: .5s;
+    z-index: -5;
+  }
+  .iskazenie1 {
+    position: absolute;
+    width: 40%;
+    height: 40vw;
+    left: 0%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .iskazenie2 {
+    position: absolute;
+    width: 40%;
+    height: 40vw;
+    left: 46%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .stiks {
+    position: relative;
+    width: 40%;
+    height: 63vw;
+    left: 16%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .stiks1 {
+    position: relative;
+    width: 190%;
+    left: 0%;
+    margin-top: 2.6vw;
+    transition: .5s;
+  }
+  .toneof {
+    position: relative;
+    width: 40%;
+    height: 35vw;
+    left: 16%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .stiks2 {
+    position: relative;
+    width: 190%;
+    left: 0%;
+    margin-top: 4.6vw;
+    transition: .5s;
+  }
+  .stiks3 {
+    position: relative;
+    width: 130%;
+    left: 0%;
+    margin-top: 4.6vw;
+    transition: .5s;
+  }
+  .stiks4 {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    margin-top: 4.6vw;
+    transition: .5s;
+  }
+  .stiks5 {
+    position: relative;
+    width: 160%;
+    left: 0%;
+    margin-top: 5.6vw;
+    transition: .5s;
+  }
+  .nositeli {
+    position: relative;
+    width: 40%;
+    height: 126vw;
+    left: 16%;
+    transition: .5s;
+    z-index: -5;
+  }
+  .background4 {
+    position: relative;
+    width: 100%;
+    height: 255vw;
+    left: 0px;
+    margin-top: 9vw;
+    /* top: 755vh; */
+    background-color: #1D1D1D;
+    transition: .5s;
+    z-index: -10;
+  }
+  .nositeli2 {
+    position: absolute;
+    width: 40%;
+    height: 126vw;
+    left: 16%;
+    margin-top: 0vw;
+    transition: .5s;
+    z-index: -5;
+  }
+  .merchshop {
+    position: relative;
+    width: 40%;
+    height: 126vw;
+    left: 16%;
+    transition: .5s;
+    z-index: -5;
+  }
+
+
+
+
+
+  .hidden {
+    opacity: 0;
+  }
+  .blocker {
+    display: none;
+  }
+  .showmenu {
+    height: 221px;
+  }

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' media='screen and (min-width: 367px) and (max-width: 2540px)' href='style/1440x900.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+    @font-face {
+    	font-family: 'Conv_Golos Text_Medium';
+    	src: url('fonts/Golos Text_Medium.eot');
+    	src: local('☺'), url('fonts/Golos Text_Medium.woff') format('woff'), url('fonts/Golos Text_Medium.ttf') format('truetype'), url('fonts/Golos Text_Medium.svg') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+    @font-face {
+    	font-family: 'Conv_Golos Text_Regular';
+    	src: url('fonts/Golos Text_Regular.eot');
+    	src: local('☺'), url('fonts/Golos Text_Regular.woff') format('woff'), url('fonts/Golos Text_Regular.ttf') format('truetype'), url('fonts/Golos Text_Regular.svg') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+    @font-face {
+    	font-family: 'Conv_Golos Text_DemiBold';
+    	src: url('fonts/Golos Text_DemiBold.eot');
+    	src: local('☺'), url('fonts/Golos Text_DemiBold.woff') format('woff'), url('fonts/Golos Text_DemiBold.ttf') format('truetype'), url('fonts/Golos Text_DemiBold.svg') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+
+    </style>
+    <script>
+    $(document).ready(function(){
+  $(window).scroll(function () {
+      if ($(this).scrollTop() > 0) {
+          $(".logo").fadeIn();
+      } else {
+          $(".logo").fadeIn();
+      }
+  });
+  $(".logo").click(function () {
+      $('body,html').animate({
+          scrollTop: 0
+      }, 400);
+      return false;
+  });
+});
+
+$(function() {
+	$('.fix2 a').each(function() {
+		$(this).on('click', function(e) {
+			e.preventDefault();
+			var scrollTo = $(this).attr('href');
+			var whitespace = scrollTo == '#s1' ? 70 : 30;
+			$('html,body').animate({
+				scrollTop: $(scrollTo).offset().top - whitespace
+			}, 1000);
+		});
+	});
+});
+
+    </script>
+  </head>
+  <body>
+    <body class="forbody"></body>
+    <div class="picture"></div>
+    <div class="all">
+
+
+    <!-- это боковое меню fix2 -->
+    <div class="fix2">
+      <div class="pro">
+        <a href="#pror">О бренде</a>
+      </div>
+      <div class="start">
+        <a href="#prort">Лого</a>
+      </div>
+      <div class="free">
+        <a href="#coolor">Цвета</a>
+      </div>
+      <div class="typo">
+        <a href="#typop">Типографика</a>
+      </div>
+      <div class="setka">
+        <a href="#setkek">Сетка</a>
+      </div>
+      <div class="composition">
+        <a href="#compop">Композиция</a>
+      </div>
+      <div class="photo">
+        <a href="#fotop">Фото</a>
+      </div>
+      <div class="graphics">
+        <a href="#grafigeg">Графика</a>
+      </div>
+      <div class="tone">
+        <a href="#tonton">Tone of voice</a>
+      </div>
+      <div class="merch">
+        <a href="#nosnos">Мерч</a>
+      </div>
+    </div>
+    <!-- меню кончилось -->
+
+    <!-- это обложка -->
+    <div class="headerstyle">Стайлгайд</div>
+    <div class="headerpro">LISTIUM</div>
+    <div class="background1"></div>
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <div class="stiker1">
+      <img src="images/Frame 79.png" alt="">
+    </div>
+    <div class="stiker2">
+      <img src="images/Frame 70.png" alt="">
+    </div>
+    <div class="stiker3">
+      <img src="images/Frame 66.png" alt="">
+    </div>
+    <div class="stiker4">
+      <img src="images/Frame 69.png" alt="">
+    </div>
+    <div class="stiker5">
+      <img src="images/Frame 77.png" alt="">
+    </div>
+    <div class="stiker6">
+      <img src="images/Frame 76.png" alt="">
+    </div>
+    <!-- обложка кончилась -->
+
+    <!-- раздел о бренде -->
+
+    <div class="brand">
+      <h2 id="pror">О бренде</h2>
+      <p>Бренд позиционируется как яркий сервис с плейлистами.<br>В основе лежит музыкальное комьюнити, готовое<br>делиться плейлистами и эмоциями. Бренд стремиться<br> показать открытость и креативность. </p>
+    </div>
+    <div class="cemantica">
+      <div class="creative">креативный</div>
+      <div class="open">открытый</div>
+      <div class="friendly">дружелюбный</div>
+      <div class="active">активный</div>
+      <div class="funny">весёлый</div>
+      <div class="optimist">оптимист</div>
+      <div class="qualitative">качестенный</div>
+    </div>
+    <div class="values">
+      <h3>Ценности</h3>
+      <p>Музыка</p>
+      <p>Быть открытым миру</p>
+      <p>С уважение относиться к вкусам людей,<br> быть активным и не бояться исследовать</p>
+      <p>Дружелюбность</p>
+      <p>Наслаждайся каждым моментом</p>
+      <h3>Миссия</h3>
+      <p>Доказать, что музыка способна объединить мир.<br> Показать каждому разнообразие музыки.</p>
+      <h2>Айдентика</h2>
+      <p>Метафорой стиля выступают звуковые волны.<br> Они способны открыть в людях яркие эмоции<br> и распространятся в пространстве. Звуковые волны<br> могут раскрыть динамику и стремление человеческой личности.</p>
+    </div>
+
+    <!-- раздел лого -->
+
+    <div class="logotip">
+      <h2 id="prort">Лого</h2>
+      <h3>Характер</h3>
+      <p>Логотип представляет собой круг, от которого исходят<br> звуковые волны. Он является эпицентром колебаний.<br> Такой способ деформации позволяет добиться<br> объёмности и открытости.</p>
+      <div class="logotipmain">
+        <img src="images/Vector2.svg" alt="">
+      </div>
+    </div>
+    <div class="sense">
+      <h3>Смыслы</h3>
+      <p>В первую очередь, логотип, как и звуковык волны,<br> распространяется в пространстве. Он стремиться<br> заполнить его, показывая нам свою объёмность.</p>
+      <div class="sound">
+        <img src="images/sound.png" alt="">
+      </div>
+    </div>
+    <div class="sense2">
+      <p>Подобная деформация говорит нам об открытости<br> бренда. Логотип будто предстаёт перед нами<br> как открытая книга.</p>
+      <div class="sound">
+        <img src="images/book.png" alt="">
+      </div>
+    </div>
+    <div class="sense3">
+      <p>Такая деформация напоминает множество пластинок,<br> из которых можно выбрать себе по вкусу.</p>
+      <div class="sound2">
+        <img src="images/record.png" alt="">
+      </div>
+      <div class="sound3">
+        <img src="images/playlist.png" alt="">
+      </div>
+    </div>
+    <div class="principles">
+      <h3>Принципы</h3>
+      <p><font face="Conv_Golos Text_DemiBold">Открытость</font> — мы дружелюбные и хотим, чтобы все люди<br> были открыты друг другу.</p>
+      <p><font face="Conv_Golos Text_DemiBold">Вариативность</font> — сервис предлагает миллионы разных<br> подборок, из которых можно выбрать подходящую.</p>
+    </div>
+    <div class="background2">
+    <div class="construction">
+      <h3><font color="white">Построение и механика</font></h3>
+      <p><font color="white">Логотип постоен на основе звуковых волн.<br> Колебания воздуха распространяются от<br> эпицентра, рассеиваясь на расстоянии.</font></p>
+      <div class="postroenie">
+        <img src="images/postroen.png" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="use">
+      <h3>Использование</h3>
+      <p>Логотип может работать как самостоятельно,<br>
+         так и в паре с названием сервиса. Стоит учитывать<br> охранное поле и расстояния между элементами.</p>
+      <div class="inuse">
+        <img src="images/inuse.png" alt="">
+      </div>
+      <div class="right">
+        <img src="images/right.png" alt="">
+      </div>
+      <div class="wrong">
+        <img src="images/wrong.png" alt="">
+      </div>
+    </div>
+    <div class="color">
+      <h2 id="coolor">Цвет</h2>
+      <h3>Выбор цветов</h3>
+      <p>Для основных цветов используются базовые тёмный<br> и светлый, которые дополняются яркими цветами.</p>
+      <h3>Основные</h3>
+      <div class="color1">
+      <p>Чистый белый</p>
+      <div class="white"></div>
+      <p>#FFFFFF</p>
+      </div>
+      <div class="color2">
+      <p>Графитно-чёрный</p>
+      <div class="black"></div>
+      <p>#1D1D1D</p>
+      </div>
+    </div>
+    <div class="dopcolor">
+      <h3>Дополнительные</h3>
+      <div class="color3">
+      <p><font size="3vw">Персидский синий</font></p>
+      <div class="violet"></div>
+      <p>#6600FF</p>
+      </div>
+      <div class="color4">
+      <p><font size="3vw">Неоновый зелёный</font></p>
+      <div class="green"></div>
+      <p>#71DA5B</p>
+      </div>
+      <div class="color5">
+      <p><font size="3vw">Сиена жжёная</font></p>
+      <div class="orange"></div>
+      <p>#EE754A</p>
+      </div>
+      <div class="color6">
+      <p><font size="3vw">Пастельно-жёлтый</font></p>
+      <div class="yellow"></div>
+      <p>#EBC068</p>
+      </div>
+      <div class="color7">
+      <p><font size="3vw">Лососёвый Крайола</font></p>
+      <div class="pink"></div>
+      <p>#FABBC1</p>
+      </div>
+    </div>
+    <div class="proportion">
+      <h3>Соотношение цветов</h3>
+      <div class="colorpropor">
+        <img src="images/Group 2273.png" alt="">
+      </div>
+    </div>
+    <div class="mixandmatch">
+      <h3>Цветовые пары</h3>
+      <div class="colorpropor">
+        <img src="images/match.png" alt="">
+      </div>
+      <h3>Плохое сочетание цветов</h3>
+      <div class="colorpropor">
+        <img src="images/baaad.png" alt="">
+      </div>
+    </div>
+    <div class="background3">
+    <div class="typography">
+      <h2 id="typop"><font color="white">Типографика</font></h2>
+      <h3><font color="white">Выбор шрифта</font></h3>
+      <h3><font color="white">Golos</font></h3>
+      <div class="golos">
+        <div class="nabor">
+          <font color="white">abcdefghijklmnopqrstuvwxyz <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br> абвгдеёжзийклмнопрстуфхцчшщъыьэюя<br> АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ <br>01234567890</font>
+        </div>
+        <div class="nabor">
+          <font color="white">Golos — универсальный гротеск, хорошо подходит для чтения длинных текстов с экранаи рекомендуется<br> для сайтов. Его плотность и рисунок улучшают читаемость больших текстов.</font>
+        </div>
+      </div>
+      <h3><font color="white">Стили текста и иерархия</font></h3>
+      <div class="h1h2">
+        <img src="images/h1h2.png" alt="">
+      </div>
+      <div class="regular">
+        <img src="images/regular.png" alt="">
+      </div>
+    </div>
+    <div class="inter">
+      <h3><font color="white">Интерлиньяж</font></h3>
+      <div class="colorpropor">
+        <img src="images/inter.png" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="settka2">
+      <h2 id="setkek">Сетка</h2>
+      <div class="setkap">
+        <img src="images/setkap.png" alt="">
+      </div>
+      <div class="setkaopis">
+        <p>Сетка строится по принципу четырёхугольника. Отступ от краев равен отступу между колонок. Отступ и расстояние между колонок рассчитывается относительно квадрата.<br>
+           Эта величина равна 1/4 относительно ширины формата.</p>
+           <p>В зависимости от формата следует добавлять
+              или убирать колонки и строки. Это нужно делать для того, чтобы сетка была квадратной. Такая форма наследуется от формы самих плейлистов.</p>
+        <div class="setkaplay">
+          <img src="images/setkaplay.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="composit">
+      <h2 id="compop">Композиционные схемы</h2>
+      <h3>Вертикальный формат</h3>
+      <div class="shema1">
+        <img src="images/shema1.png" alt="">
+      </div>
+      <div class="shema2">
+        <img src="images/shema2.png" alt="">
+      </div>
+    </div>
+    <div class="kvadrat">
+      <h3>Квадратный формат</h3>
+      <div class="shema3">
+        <img src="images/shema3.png" alt="">
+      </div>
+      <div class="shema4">
+        <img src="images/shema4.png" alt="">
+      </div>
+    </div>
+    <div class="gorizont">
+      <h3>Горизонтальный формат</h3>
+      <div class="shema5">
+        <img src="images/shema5.png" alt="">
+      </div>
+    </div>
+    <div class="background3">
+    <div class="primer">
+      <h3><font color="white">Примеры применения</font></h3>
+      <div class="primer1">
+        <img src="images/primer1.png" alt="">
+      </div>
+      <div class="primer2">
+        <img src="images/primer2.png" alt="">
+      </div>
+    </div>
+    <div class="kvadrat2">
+      <div class="shema3">
+        <img src="images/primer3.png" alt="">
+      </div>
+      <div class="shema4">
+        <img src="images/primer4.jpg" alt="">
+      </div>
+    </div>
+    <div class="gorizont2">
+      <div class="shema5">
+        <img src="images/primer5.png" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="photorazdel">
+      <h2 id="fotop">Фотографии</h2>
+      <h3>Принципы выбора</h3>
+      <p>Фотографии для инстаграма и баннеров должны либо быть на музыкальную тематику, либо быть похожими на кадр<br>из счастливого фильма, где происходит какое-то интересное событие, например, путешествие.</p>
+      <div class="palette">
+        <img src="images/palette.png" alt="">
+      </div>
+    </div>
+    <div class="fotki">
+    <div class="photocolumn1">
+      <div class="palette">
+        <img src="images/image 40.png" alt="">
+      </div>
+      <div class="palette">
+        <img src="images/image 42.png" alt="">
+      </div>
+      <h3>Требования</h3>
+      <ul>
+        <li>яркое фото</li>
+        <li>главный объект в центре</li>
+        <li>фон не монотонный</li>
+      </ul>
+    </div>
+    <div class="photocolumn2">
+      <div class="palette">
+        <img src="images/image 41.png" alt="">
+      </div>
+      <div class="palette">
+        <img src="images/image 43.png" alt="">
+      </div>
+      <div class="palette">
+        <img src="images/image 44.png" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="grafica">
+      <h2 id="grafigeg">Графика</h2>
+      <div class="iskazenie">
+      <div class="iskazenie1">
+        <h3><font size="6.8%">Метафора</font></h3>
+        <p>Подобно логотипу, фотографии видоизменяются под влиянием звуковых волн, при этом основной объект не изменяется, я искажается лишь пространство вокруг него.</p>
+        <div class="palette">
+          <img src="images/image 40.png" alt="">
+        </div>
+      </div>
+      <div class="iskazenie2">
+        <h3><font size="6.8%">Механика построения</font></h3>
+        <p>Изображение делиться на 30 частей, в зависимости от ширины. Каждая его часть отзеркаливается. Центральный объект остаётся без изменений<br> и ставиться вперёд.</p>
+        <div class="palette">
+          <img src="images/iska.png" alt="">
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="stiks">
+      <h3>Коллекция стикеров</h3>
+      <p>Стикеры созданы для поддержания атмосферы дружелюбности и креативности. Основной метафорой выступают плейлисты. Стикеры наследуют их квадратную форму и яркие заголовки.</p>
+      <div class="stiks1">
+        <img src="images/stiks1.png" alt="">
+      </div>
+    </div>
+    <div class="toneof">
+      <h2 id="tonton">Tone of voice</h2>
+      <p>Наши ценности заключаются в открытости, уважении к вкусам людей и дружелюбности, поэтому интонация, с которой мы будем обращаться к пользователю должна быть максимально дружелюбно и открыто.</p>
+      <div class="stiks2">
+        <img src="images/toneof.png" alt="">
+      </div>
+    </div>
+    <div class="nositeli">
+      <h2 id="nosnos">Носители</h2>
+      <h3>Соцсети</h3>
+      <div class="stiks2">
+        <img src="images/insta.png" alt="">
+      </div>
+      <div class="stiks3">
+        <img src="images/facebook.png" alt="">
+      </div>
+    </div>
+    <div class="background4">
+    <div class="nositeli2">
+      <h3><font color="white">Реклама</font></h3>
+      <div class="stiks4">
+        <img src="images/poster1.png" alt="">
+      </div>
+      <div class="stiks2">
+        <img src="images/poster2.png" alt="">
+      </div>
+      <div class="stiks4">
+        <img src="images/poster3.png" alt="">
+      </div>
+      <h3><font color="white">Печать</font></h3>
+      <div class="stiks5">
+        <img src="images/vizitki.png" alt="">
+      </div>
+      <div class="stiks5">
+        <img src="images/tickets.png" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="merchshop">
+      <h3>Мерч</h3>
+      <div class="stiks5">
+        <img src="images/tshirt1.png" alt="">
+      </div>
+      <div class="stiks5">
+        <img src="images/tshirt2.png" alt="">
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+  </body>
+</html>
